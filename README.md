@@ -7,7 +7,7 @@ This is a simple package for curling a list of urls and recording the redirect j
 In your command line, type the following where you want the redirect checker to be installed
 
 ```
-git clone
+git clone https://github.com/paultitcomb/redirect-checker.git
 ```
 
 Make sure you have Nodejs installed on your machine, cd into the folder where you cloned this git repo from. If you do have node installed you can go ahead and run:
@@ -21,7 +21,7 @@ npm install
 When all the node packages have been installed, in your command line run:
 
 ```
-node check http://www.url.com
+node check.js http://www.url.com
 ```
 
 Replacing the example domain with the one you want to crawl. Once that has run it'll spit out a redirects.json file with all the data in it.
