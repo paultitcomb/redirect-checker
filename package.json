@@ -1,0 +1,14 @@
+{
+	"name": "redirect-checker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "check.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Paul Titcomb",
+	"license": "ISC",
+	"dependencies": {
+		"node-libcurl": "^1.3.3"
+	}
+}
